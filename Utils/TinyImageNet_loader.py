@@ -2,6 +2,7 @@ from PIL import Image
 from torchvision import transforms
 from torch.utils.data import DataLoader, Dataset, random_split, ConcatDataset
 import torchvision.datasets as datasets
+import os
 
 
 def label_names_all(root_dir = '../datasets'):
